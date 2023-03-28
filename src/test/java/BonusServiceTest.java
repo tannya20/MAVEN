@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 public class BonusServiceTest {
-    // получение бонуксов менимальный платежа
+    // получение бонусов менимального платежа
     @Test
     void shouldCalculateForRegisteredAndOverLimitWithAmount99t() {
         BonusService service = new BonusService();
